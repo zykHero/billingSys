@@ -1,0 +1,68 @@
+.shopInfoTeam{
+  clear: both;
+  margin-bottom: 10px;
+}
+#addShopBtn_submit{
+  position: absolute;
+  top: 0;
+  right: 50px;
+  width: 100px;
+  margin: 8px;
+}
+.inputText{
+  width: 210px;
+  height: 34px;
+}
+.mustFlag{
+  height: 34px;
+  line-height: 34px;
+  color: red;
+}
+@media screen and (max-width: 768px) {
+  #sourShop label{
+    float: left;
+    width: 96px;
+  }
+  .shopBaseLabel{
+    width: 96px;
+  }
+  .shopBaseInput{
+    display: inline;
+    width: 190px;
+  }
+  #detailedAdress{
+    width: 190px;
+  }
+}
+@media screen and (min-width: 769px)and (max-width:1119px){
+  #sourShop label{
+    float: left;
+    width: 112px;
+  }
+  .shopBaseLabel{
+    width: 108px;
+  }
+  .shopBaseInput{
+    display: inline;
+    width: 190px;
+  }
+  #detailedAdress{
+    width: 430px;
+  }
+}
+@media (min-width: 1200px){
+  #sourShop label{
+    float: left;
+    width: 124px;
+  }
+  .shopBaseLabel{
+    width: 120px;
+  }
+  .shopBaseInput{
+    display: inline;
+    width: 200px;
+  }
+  #detailedAdress{
+    width: 605px;
+  }
+}

@@ -1,0 +1,62 @@
+.recordRow{
+  margin-top: 10px;
+}
+.labelStyle{
+  margin-left: 50px;
+  float: left;
+  width: 20%;
+}
+.inputStyle{
+  display: inline;
+  width: 50%;
+}
+#bookingDate{
+  width: 50%;
+  margin-bottom: 10px;
+}
+#bookkeeping_button{
+  position: absolute;
+  top: 0;
+  right: 50px;
+  width: 100px;
+  margin: 8px;
+}
+.mustFlag{
+  height: 34px;
+  line-height: 34px;
+  color: red;
+  margin-left: 5px;
+}
+.selectMustFlag{
+  height: 34px;
+  line-height: 34px;
+  color: red;
+  margin-left: 5px;
+  position: relative;
+  left: -20px;
+}
+@media screen and (max-width: 768px) {
+  #bookkeeping_searchType{
+    margin-top: 10px;
+  }
+  #bookkeeping_searchDate_end{
+    clear: both;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 769px)and (max-width:1119px){
+  #bookkeeping_searchDate_start,#bookkeeping_searchDate_end{
+    float: left;
+  }
+  #bookkeeping_searchDate_end{
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1200px){
+  #bookkeeping_searchDate_start,#bookkeeping_searchDate_end{
+    float: left;
+  }
+  #bookkeeping_searchDate_end{
+    margin-left: 20px;
+  }
+}

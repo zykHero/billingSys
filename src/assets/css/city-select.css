@@ -1,0 +1,57 @@
+@media screen and (max-width: 768px) {
+  .cityselect {
+    width:100%;
+    height: 132px;
+    position: relative;
+    top: 10px;
+  }
+  .cityselect select{
+    width: 190px;
+    margin-top: 10px;
+  }
+
+  .cityselect select:nth-child(2){
+    margin-left: 96px;
+  }
+  .cityselect select:nth-child(3){
+    margin-left: 96px;
+  }
+}
+@media screen and (min-width: 769px)and (max-width:1119px){
+  .cityselect {
+    width:100%;
+    height: 34px;
+  }
+  .cityselect select{
+    float: left;
+    margin-right: 5px;
+  }
+  .cityselect select:nth-child(1){
+    width: 150px;
+  }
+  .cityselect select:nth-child(2){
+    width: 150px;
+  }
+  .cityselect select:nth-child(3){
+    width: 120px;
+  }
+}
+@media (min-width: 1200px){
+  .cityselect {
+    width:100%;
+    height: 34px;
+  }
+  .cityselect select{
+    float: left;
+    margin-right: 10px;
+  }
+  .cityselect select:nth-child(1){
+    width: 200px;
+  }
+  .cityselect select:nth-child(2){
+    width: 200px;
+  }
+  .cityselect select:nth-child(3){
+    width: 187px;
+  }
+}

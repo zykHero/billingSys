@@ -1,0 +1,78 @@
+.selectMultiple{
+  position: relative;
+}
+#selectMultiple_label{
+  float: left;
+}
+.selectMultiple input{
+  float: left;
+  padding-right: 35px;
+}
+.select_list{
+  position: absolute;
+  top: 34px;
+  z-index: 999;
+  border: 1px solid #ccc;
+  background-color: #FFFFFF;
+  overflow-y: scroll;
+}
+.select_list li div,.select_list li i{
+  float: left;
+}
+.select_list li i{
+  width: 30px;
+}
+.select_list li{
+  height: 45px;
+  line-height: 45px;
+  padding: 2px 5px;
+}
+.select_list li:hover{
+  cursor: pointer;
+  background-color: #c3c3c3;
+}
+.listData_every{
+  width: 89%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.listData_every_isOK{
+  width: 10%;
+}
+.listData_every_isOK:after{
+  content: attr(selectedFlag);
+}
+/*下拉框-收缩*/
+.selectList_collapse{
+  position: relative;
+  right: 35px;
+  top: 10px;
+  float: left;
+  width: 0;
+  height: 0;
+  border-width: 12px;
+  border-style: solid;
+  border-color: #c3c3c3 transparent transparent transparent;
+}
+/*下拉框-展开*/
+.selectList_expend{
+  position: relative;
+  right: 35px;
+  float: left;
+  width: 0;
+  height: 0;
+  border-width: 12px;
+  border-style: solid;
+  border-color: transparent transparent  #c3c3c3  transparent;
+}
+.selectList_expend,.selectList_collapse:hover{
+  cursor: pointer;
+}
+#input_searchSelect{
+  height: 34px;
+}
+#input_searchSelect input{
+  border-top: 0;
+  border-radius: 0;
+}
